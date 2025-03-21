@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      const start = new Date('2025-02-22T01:26:00');
+      const start = new Date('2025-02-22T01:25:00');
       const now = new Date();
       const diff = now.getTime() - start.getTime();
 
