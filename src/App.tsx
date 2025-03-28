@@ -298,7 +298,6 @@ function App() {
         </section>
       </div>
 
-      {/* Music Player */}
       <div className="fixed bottom-6 right-6 z-50">
         <motion.button
           onClick={handlePlayPause}
